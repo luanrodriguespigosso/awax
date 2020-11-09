@@ -6,7 +6,9 @@
 body {
     font-family: 'Monteserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
 }
+/*--------------- Header -----------------*/
 header {
     height: 100px;
     background-color: #000;
@@ -19,6 +21,7 @@ header {
     display: flex;
     align-items: center;
 }
+/*--------------- LogoTipo -----------------*/
 .logo {
     width: 100px;
 }
@@ -28,6 +31,7 @@ header {
     background-color: #B28756;
     border-radius: 40px;
 }
+/*--------------- Menu -----------------*/
 .menu {
     flex: 1;
     display: flex;
@@ -57,6 +61,7 @@ header {
     border-bottom: 5px solid #B28756;
     color: #CCC;
 }
+/*--------------- Banner -----------------*/
 .banner {
     height:calc(100vh - 100px);
     background-color: #333;
@@ -127,4 +132,9 @@ header {
 }
 .banner .pointer.active {
     background-color: #B28756;
+}
+/*--------------- About -----------------*/
+.default {
+    background-color: red;
+
 }
